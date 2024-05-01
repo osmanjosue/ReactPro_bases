@@ -5,6 +5,6 @@ import { Counter } from './bases/Counter'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Counter initialValue={25}/>
+    <Counter />
   </React.StrictMode>,
 )
